@@ -13,6 +13,7 @@
 		7BB0B0E61A75A8C1008E30ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB0B0E51A75A8C1008E30ED /* Images.xcassets */; };
 		7BB0B0E91A75A8C1008E30ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB0B0E71A75A8C1008E30ED /* LaunchScreen.xib */; };
 		7BB0B0F51A75A8C1008E30ED /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0B0F41A75A8C1008E30ED /* ToDoListTests.swift */; };
+		7BB0B25C1A882717008E30ED /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0B25B1A882717008E30ED /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7BB0B0EE1A75A8C1008E30ED /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB0B0F31A75A8C1008E30ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BB0B0F41A75A8C1008E30ED /* ToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTests.swift; sourceTree = "<group>"; };
+		7BB0B25B1A882717008E30ED /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				7BB0B0DE1A75A8C1008E30ED /* AppDelegate.swift */,
+				7BB0B25B1A882717008E30ED /* TableViewController.swift */,
 				7BB0B0E01A75A8C1008E30ED /* ViewController.swift */,
 				7BB0B0E21A75A8C1008E30ED /* Main.storyboard */,
 				7BB0B0E51A75A8C1008E30ED /* Images.xcassets */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BB0B0E11A75A8C1008E30ED /* ViewController.swift in Sources */,
+				7BB0B25C1A882717008E30ED /* TableViewController.swift in Sources */,
 				7BB0B0DF1A75A8C1008E30ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				7BB0B0FA1A75A8C1008E30ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BB0B0FB1A75A8C1008E30ED /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				7BB0B0FD1A75A8C1008E30ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
